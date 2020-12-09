@@ -11,16 +11,24 @@ Information about the device and its environment.
     - TV like devices: some meters away, screensizes from 15”, remote control
     - 2nd screen (phone or tablet) with splited app as remote control
 - Headless (Server class) without UI
+    - processing only
+    - network only
+    - perhaps no other IO devices
 - External Displays! disconnectable → multiple UI settings 
 - Wearables
     - very small display (SmartWatch)
-    - without display
+    - without display, just sensors
+    - e.g. vibrator only
 - Distinguish also the actual input device
     - Adjust Size/Display Size on tip for controls e.g. on fingertip devices enlarge at the first tip to show all options like sort asc/desc
     - mouse
     - fingertip
     - speech
     - (additional) keyboard
+    
+Express device
+- Features
+- Behaviors
 
 ##Network
 - active/inacive
