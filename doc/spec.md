@@ -5,6 +5,33 @@ Information about the device and its environment.
 
 ##Devicetypes
 
+--> Couple display/behavior to properties of the device, not the device type
+define selectors for main properties 
+- device display selector like 'mobile640', 'tablet1024', 'leds', 'none' ... add a 'default' selector
+- device operation selector 'pointer', 'keyboard', 'remotecontrol', 'voice', ...
+- device audio selector 'beep', 'none', 'hifi'
+
+Define features of the device
+- Query
+````js
+    if (window.matchMedia("only screen and (max-width: 760px) and (orientation: portrait)").matches) ...
+````
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries
+- Change Notifications:
+````js
+const mediaQueryList = window.matchMedia("(orientation: portrait)");
+mediaQueryList.addEventListener('change', (evt) => { (evt.matches) ? x  : y });
+````    
+    
+multiple properties
+- 2 displays
+- 'keyboard', 'mouse' & 'pointer'
+- 'beep' & 'hifi'
+
+multiple devices
+- TV/Desktop & Tablet used together
+ 
 - Phone like devices: will be held portrait (portrait), screensizes 4” to 10”, fingertip
 - Tablett like devices: will be held landscape (lanscape), screensizes 6” to 13”, fingertip
 - PC/Notebook like devices: landscape on table, screensizes 11” to 30+”, keyboard, mouse
