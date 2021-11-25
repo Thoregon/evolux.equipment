@@ -3,6 +3,8 @@ Equipment
 
 Information about the device and its environment.
 
+use [OWL](https://www.w3.org/OWL/) for descriptions
+
 ##Devicetypes
 
 --> Couple display/behavior to properties of the device, not the device type
