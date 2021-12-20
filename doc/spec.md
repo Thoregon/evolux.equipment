@@ -5,7 +5,7 @@ Information about the device and its environment.
 
 use [OWL](https://www.w3.org/OWL/) for descriptions
 
-##Devicetypes
+## Devicetypes
 
 --> Couple display/behavior to properties of the device, not the device type
 define selectors for main properties 
@@ -59,15 +59,21 @@ Express device
 - Features
 - Behaviors
 
-##Network
+## Browser
+
+### Network
 - active/inacive
+    - NodeJS
+        - https://www.npmjs.com/package/internet-available
+        - https://stackoverflow.com/questions/31486210/managing-network-interfaces-from-node-js
 - networktype
     - https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/type
 - networkspeed
     - avg
     - max
+- NodeJS: https://gist.github.com/mekwall/4458195
     
-##Energy
+### Energy
 - power grid
 - battery
     - is low
@@ -75,10 +81,19 @@ Express device
     - https://developer.mozilla.org/de/docs/Web/API/BatteryManager 
 - change events
 
-##Perfomance
+### Perfomance
 - https://developer.mozilla.org/de/docs/Web/API/Performance
+- https://nodejs.org/api/perf_hooks.html
 
-##GEO Location
+### GEO Location
 - https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition
 
-##Notification
+### Notification
+
+
+
+## NodeJS
+
+get system/hardware information
+- https://nodejs.org/api/os.html
+- https://github.com/sebhildebrandt/systeminformation
