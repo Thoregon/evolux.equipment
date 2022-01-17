@@ -1,6 +1,8 @@
 Equipment
 =========
 
+!! --> https://whatwebcando.today/
+
 Information about the device and its environment.
 
 use [OWL](https://www.w3.org/OWL/) for descriptions
